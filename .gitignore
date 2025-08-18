@@ -16,6 +16,7 @@ fhirconfig.yaml  # Do not commit real config; use .example
 *.log
 *.tmp
 *.csv  # Unless sample data
+*.ipynb_checkpoints
 
 # OS files
 .DS_Store
