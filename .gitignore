@@ -1,0 +1,29 @@
+# Byte-compiled / optimized files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Secrets and configs
+vault.token
+fhirconfig.yaml  # Do not commit real config; use .example
+
+# Logs and temp files
+*.log
+*.tmp
+*.csv  # Unless sample data
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/
+.idea/
+
+# Data (if large; otherwise keep)
+data/*.csv  # If sensitive, ignore; else include placeholders

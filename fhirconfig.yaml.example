@@ -1,0 +1,12 @@
+hapi_fhir_server_prod:
+  url_root_fhir: "https://example-hapi-fhir.com"
+  url2_fhir: "/fhir"
+  conn_type: "hapi"
+  auth_type: "basic"
+  user_id_field: "username"
+  pwd_field: "password"
+  api_vault_path: "path/to/vault/secret"
+  headers:
+    Content-Type: "application/json"
+
+# Add other instances as needed (e.g., epic_fhir_ncal_prod)
