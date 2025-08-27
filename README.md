@@ -2,7 +2,7 @@
 
 This repository contains a Python library for interacting with FHIR servers, retrieving patient data from emergency department (ED) encounters, and computing Seneca phenotypes for sepsis research. Seneca phenotyping classifies patients into subtypes (Alpha, Beta, Gamma, Delta) based on clinical variables like labs, vitals, demographics, and comorbidities.
 
-This code serves as supplemental material for a draft journal publication: *Pragmatic Application of FHIR Enables Clinical Trial Enrichment: A Sepsis Subtyping Demonstration Study* by *King AJ, et al.*, currently under review at *Applied Clinical Informatics*. It demonstrates data retrieval from FHIR servers (e.g., Epic, HAPI) and application of the Seneca algorithm for sepsis phenotyping.
+This code serves as supplemental material for a draft journal publication: *A FHIR-powered Python Implementation of the SENECA Algorithm for Sepsis Subtyping* by *King AJ, et al.*, currently under review at *Applied Clinical Informatics*. It demonstrates data retrieval from FHIR servers (e.g., Epic, HAPI) and application of the Seneca algorithm for sepsis phenotyping.
 
 ## Features
 
@@ -98,7 +98,7 @@ For detailed API usage, see `docs/documentation.md`.
 
 If you use this code in your research, please cite the associated publication:
 
-*King AJ, Horvat CM, Schlessinger D, Hochheiser H, Bui KV, Kennedy JN, Brant E, Shalaby J, Angus DC, Liu V, Seymour CW. (under review). Pragmatic Application of FHIR Enables Clinical Trial Enrichment: A Sepsis Subtyping Demonstration Study.*
+*King AJ, Horvat CM, Schlessinger D, Hochheiser H, Bui KV, Kennedy JN, Brant E, Shalaby J, Angus DC, Liu V, Seymour CW. (under review). A FHIR-powered Python Implementation of the SENECA Algorithm for Sepsis Subtyping .*
 
 Repository: https://github.com/ajk77/SepsisOnFHIR
 
